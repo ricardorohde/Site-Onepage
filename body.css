@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+*{padding:0;margin:0;}
+html,body{height:100%;}
+body{background:#444;}
+a{text-decoration:none;}
+@font-face {
+    font-family:'sosa';
+    src: url(fonts/sosa/sosa.otf);
+    src: url(fonts/sosa/sosa.ttf);
+    src: url(fonts/sosa/sosa.woff);
+}
+@font-face {
+    font-family:'socialico';
+    src: url(fonts/socialico/socialico.otf);
+    src: url(fonts/socialico/socialico.ttf);
+    src: url(fonts/socialico/socialico.woff);
+}
+
+@media only screen and (min-width: 1000px) {
+
+h2{font: 30px 'Open Sans', Arial, Helvetica, sans-serif;color:#2bcec4;font-weight:100;letter-spacing:-1px;text-align:center;line-height:normal;}
+
+/* ==================================================================================================== */
+
+header{width:90%;height:10%;float:left;padding:0 5%;position:fixed;top:0;background: #444;-webkit-box-shadow: 0 0 5px #333;-moz-box-shadow: 0 0 5px #333;box-shadow: 0 0 5px #333;z-index:10;}
+header h3{font-family:Arizonia, arial, sans-serif;font-size:42px;letter-spacing:normal;line-height:60px;font-weight:100;color: #fff;}
+header > a{display:none;}
+header > h3{width:35%;float:left;}
+nav:nth-of-type(2){display:none;}
+nav{width:65%;height:100%;float:right;}
+nav > ul{width:100%;height:80%;float:right;margin-top:1.7%;}
+nav > ul > li{width:auto;height:100%;float:left;margin: 0 10px;list-style:none;}
+nav > ul > li:last-child{border:none;}
+nav > ul > li > a{width:100%;height:100%;float:left;font-family:'open sans', arial, sans-serif;font-size:12px;text-align:center;line-height:350%;font-weight:normal;color:#999;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+nav > ul > li > a:hover{color: rgba(43, 206, 196, 1);}
+
+/* ==================================================================================================== */
+
+.container:nth-of-type(1){width:100%;height:100%;position:relative; display:table;border-top: solid 5px #2bcec4;background:url(img/bg.png);background-size: 50% 50% no-repeat;background-size:cover;}
+.container:nth-of-type(1) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;background:rgba(40,40,40,.8) url(img/pontilhado.png) 50% 50%;}
+
+.container:nth-of-type(3),
+.container:nth-of-type(5),
+.container:nth-of-type(7){width:100%;height:100%;position:relative; display:table;background:#333;}
+
+.container:nth-of-type(3) figure,
+.container:nth-of-type(5) figure,
+.container:nth-of-type(7) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;}
+
+/* ==================================================================================================== */
+
+.container:nth-of-type(2),
+.container:nth-of-type(4),
+.container:nth-of-type(6),
+.container:nth-of-type(8){width:100%;height:100%;position:relative; display:table;background:#222;}
+
+.container:nth-of-type(2) figure,
+.container:nth-of-type(4) figure,
+.container:nth-of-type(6) figure,
+.container:nth-of-type(8) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;}
+
+/* ==================================================================================================== */
+
+figure img{width:300px;border-radius:5px;}
+figcaption{width:100%;margin-bottom:20px;font: 22px 'Open Sans', Arial;color:#999;}
+figcaption > a{font: 44px Socialico, Arial;color:#2bcec4;position:relative;bottom:-10px;}
+figcaption > a:hover{color:#fa0;}
+
+/* ==================================================================================================== */
+
+.box{width:98%;margin:0 auto;}
+#display{width:30.25%;min-height:250px;float:left;padding:20px 1%;position:relative;margin-bottom:25px;border-radius:4px;text-align:center;}
+#display h5{font: 13px 'Open Sans', Arial, Helvetica, sans-serif;color:#fff;font-weight:100;line-height:22px;}
+#display h5 a{font: 13px 'Open Sans', Arial, Helvetica, sans-serif;color:#f50;font-weight:100;line-height:22px;}
+#display span{font: 122px Sosa, Arial, Helvetica, sans-serif;color:#2bcec4;font-weight:100;line-height:130px;}
+#display span a{font: 122px Sosa, Arial, Helvetica, sans-serif;color:#999;font-weight:100;line-height:182px;}
+
+#display:nth-of-type(1),
+#display:nth-of-type(2),
+#display:nth-of-type(3){margin:0 1% 0 0;}
+#display:nth-of-type(4){float:right;}
+
+/* ==================================================================================================== */
+
+#contato form{width:31%;padding:1%;position:relative;top:7%;left:33%;border-radius:10px;}
+#contato form > input[type="text"]{width:98%;height:50px;padding:1%;margin-bottom:10px;border-radius:5px;border:none;font-family:'open sans', Arial, Helvetica, sans-serif;font-size:16px;color:#777;}
+#contato form > textarea{width:98%;height:80px;padding:1%;margin-bottom:10px;border-radius:5px;border:none;font-family:'open sans', Arial, Helvetica, sans-serif;font-size:16px;color:#777;}
+#contato form > input[type="submit"]{width:100%;height:80px;margin-bottom:10px;border-radius:5px;border:none;border-bottom:solid 5px #111;background:#444;font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#fff;}
+#contato form > input[type="submit"]:hover{cursor:pointer;background:#111;}
+
+/* ==================================================================================================== */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 999px) {
+
+h2{font: 30px 'Open Sans', Arial, Helvetica, sans-serif;color:#2bcec4;font-weight:100;letter-spacing:-1px;text-align:center;line-height:normal;}
+
+/* ==================================================================================================== */
+
+header{width:90%;height:10%;float:left;padding:0 5%;position:fixed;top:0;background: #444;-webkit-box-shadow: 0 0 5px #333;-moz-box-shadow: 0 0 5px #333;box-shadow: 0 0 5px #333;z-index:10;}
+header h3{font-family:Arizonia, arial, sans-serif;font-size:22px;letter-spacing:normal;line-height:62px;font-weight:100;color: #fff;}
+header > h3{width:auto;float:left;}
+header a{display:block;width:auto;float:right;position:relative;top:-5px;right:0;z-index:9999999;}
+#menu_desk{display:none;}
+nav{display:none;width:100%;height:auto;float:left;position:absolute;top:55px;left:-0.25%;background:#222;}
+nav > ul{width:90%;height:auto;float:left;padding:0 5%;}
+nav > ul > li{width:100%;height:auto;float:left;list-style:none;}
+nav > ul > li:last-child{border:none;}
+nav > ul > li > a{width:100%;float:left;font-family:'open sans', arial, sans-serif;font-size:16px;line-height:60px;font-weight:normal;color:#fff;}
+nav > ul > li > a:hover{color: rgba(43, 206, 196, 1);}
+
+/* ==================================================================================================== */
+
+.container:nth-of-type(1){width:100%;height:100%;position:relative; display:table;border-top: solid 5px #2bcec4;background:url(img/bg.png) center top no-repeat;background-size:auto 100%;}
+.container:nth-of-type(1) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;background:rgba(40,40,40,.8) url(img/pontilhado.png) 50% 50%;}
+
+.container:nth-of-type(3),
+.container:nth-of-type(5),
+.container:nth-of-type(7){width:100%;height:100%;position:relative; display:table;background:#333;}
+
+.container:nth-of-type(3) figure,
+.container:nth-of-type(5) figure,
+.container:nth-of-type(7) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;}
+
+/* ==================================================================================================== */
+
+.container:nth-of-type(2),
+.container:nth-of-type(4),
+.container:nth-of-type(6),
+.container:nth-of-type(8){width:100%;height:100%;position:relative; display:table;background:#222;}
+
+.container:nth-of-type(2) figure,
+.container:nth-of-type(4) figure,
+.container:nth-of-type(6) figure,
+.container:nth-of-type(8) figure{width:100%;text-align:center;display:table-cell;vertical-align:middle;}
+
+/* ==================================================================================================== */
+
+figure img{width:300px;border-radius:5px;}
+figcaption{width:100%;margin:100px 0 40px 0;font: 22px 'Open Sans', Arial;color:#999;}
+figcaption > a{font: 44px Socialico, Arial;color:#2bcec4;position:relative;bottom:-10px;}
+figcaption > a:hover{color:#fa0;}
+
+/* ==================================================================================================== */
+
+.box{width:98%;margin:0 auto;}
+#display{width:98%;min-height:250px;float:left;padding:20px 1%;position:relative;margin-bottom:25px;border-radius:4px;text-align:center;}
+#display h5{font: 16px 'Open Sans', Arial, Helvetica, sans-serif;color:#fff;font-weight:100;line-height:22px;}
+#display h5 a{font: 16px 'Open Sans', Arial, Helvetica, sans-serif;color:#f50;font-weight:100;line-height:22px;}
+#display span{font: 122px Sosa, Arial, Helvetica, sans-serif;color:#2bcec4;font-weight:100;line-height:130px;}
+#display span a{font: 122px Sosa, Arial, Helvetica, sans-serif;color:#999;font-weight:100;line-height:182px;}
+
+#display:nth-of-type(1),
+#display:nth-of-type(2),
+#display:nth-of-type(3){margin:0 1% 0 0;}
+#display:nth-of-type(4){float:right;}
+
+/* ==================================================================================================== */
+
+#contato form{width:96%;padding:1%;position:relative;top:7%;left:1%;border-radius:10px;}
+#contato form > input[type="text"]{width:98%;height:50px;padding:1%;margin-bottom:10px;border-radius:5px;border:none;font-family:'open sans', Arial, Helvetica, sans-serif;font-size:16px;color:#777;}
+#contato form > textarea{width:98%;height:80px;padding:1%;margin-bottom:10px;border-radius:5px;border:none;font-family:'open sans', Arial, Helvetica, sans-serif;font-size:16px;color:#777;}
+#contato form > input[type="submit"]{width:100%;height:80px;margin-bottom:10px;border-radius:5px;border:none;border-bottom:solid 5px #111;background:#444;font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#fff;}
+#contato form > input[type="submit"]:hover{cursor:pointer;background:#111;}
+
+/* ==================================================================================================== */
+
+}
+
+}

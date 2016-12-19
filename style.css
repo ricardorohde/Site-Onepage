@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1000px) {
+.percent {
+  display: inline-block;
+  line-height: 250px !important;
+  z-index: 2;
+  text-align: center;
+  margin-left: -10px;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1px;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart2 {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart3 {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart canvas,
+.chart2 canvas,
+.chart3 canvas {
+  width:98% !important;
+  height: auto !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 999px) {
+.percent {
+  display: inline-block;
+  line-height: 215px !important;
+  z-index: 2;
+  text-align: center;
+  margin-left: -10px;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1px;
+}
+.chart {
+  position: relative;
+  display: table;
+  width: 60%;
+  height: 260px;
+  float:left;
+  margin: 0 20%;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart2 {
+  position: relative;
+  display: table;
+  width: 60%;
+  height: 260px;
+  float:left;
+  margin: 0 20%;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart3 {
+  position: relative;
+  display: table;
+  width: 60%;
+  height: 260px;
+  float:left;
+  margin: 0 20%;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color:#fff;
+}
+.chart canvas,
+.chart2 canvas,
+.chart3 canvas {
+  width:98% !important;
+  height: auto !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+}
